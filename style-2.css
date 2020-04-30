@@ -1,0 +1,95 @@
+.card__separator--07a {
+    margin: 1px 0 8px 0;
+}
+
+@media screen and (min-width:540px) {
+    .card__separator--07a {
+        margin: 15px 0 5px 0;
+    }
+}
+
+.card--07a {
+    min-height: 82px;
+}
+
+.th_gastro .fold_article__recommended_for_you .main_tile__title {
+    margin-top: 3px;
+}
+
+.main_tile__label_border--left {
+    background-color: #e0e0e0;
+    bottom: 0;
+    height: auto;
+    left: 3px;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    width: 1px;
+}
+
+
+.article .fold_article__recommended_for_you {
+    padding: 0 15px;
+}
+
+.main_tile__content .row:last-of-type .card__separator  {
+    display: none;
+}
+
+.main_tile__label_border--left:before,
+.main_tile__label_border--left:after {
+    transform: translatex(-50%);
+    background: #e0e0e0;
+}
+
+.main_tile__label_border--left:before {
+    bottom: auto;
+}
+
+.main_tile__label_border--left:after {
+    top: auto;
+    right: auto;
+    left: 0;
+    bottom: 3px;
+}
+
+@media screen and (min-width: 684px) and (max-width: 960px) {
+    .article .fold_article__recommended_for_you {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+
+    .main_tile__label_border--visible_mobile {
+        display: none;
+    }
+    .th_gastro .fold_article__recommended_for_you .main_tile__title {
+        text-align: left;
+        padding-left: 51px;
+    }
+    .th_gastro .fold_article__recommended_for_you .main_tile__content {
+        padding: 0 51px;
+    }
+    .fold_article__recommended_for_you .main_tile__label_border--left {
+        display: block;
+        left: -1px;
+    }
+}
+
+@media screen and (max-width: 683px) {
+
+    .main_tile__label_border--visible_mobile {
+        display: block;
+    }
+    .th_gastro .fold_article__recommended_for_you .main_tile__title {
+        text-align: center;
+        padding-left: 0;
+    }
+    .th_gastro .fold_article__recommended_for_you .main_tile__content {
+        padding: 0;
+    }
+    .fold_article__recommended_for_you .main_tile__label_border--left {
+        display: none;
+    }
+}
